@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+body {
+    font: normal 16pt Arial;
+}
+input {
+    font: normal 16pt Arial;
+    width: 100px;
+}   
+div#res {
+    margin-top: 30px;
+}

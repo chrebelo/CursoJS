@@ -1,6 +1,5 @@
 var diaatual = new Date()
 var dia = diaatual.getDay()
-var dia = 4;
 console.log(`Hoje é ${dia}`)
 if (dia = 0) {
     console.log('Domingo')

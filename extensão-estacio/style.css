@@ -11,6 +11,16 @@ body {
     align-items: center;
     background-color: #f4f4f9;
     color: #333;
+
+ /*   height: 100vh;
+
+    background-color: black;
+    background-image: url(maxresdefault.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    */
 }
 
 header {

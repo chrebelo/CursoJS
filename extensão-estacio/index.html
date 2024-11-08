@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guia de Primeiros Socorros</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Guia de Primeiros Socorros</h1>
+        <nav>
+            <ul>
+                <li><a href="#introduction">Introdução</a></li>
+                <li><a href="#steps">Passos Importantes</a></li>
+                <li><a href="#common">Situações Comuns</a></li>
+                <li><a href="#contact">Contato de Emergência</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="introduction">
+            <h2>Introdução</h2>
+            <p>Primeiros socorros são os cuidados iniciais dados a uma pessoa que está ferida ou com problemas de saúde súbitos.</p>
+        </section>
+
+        <section id="steps">
+            <h2>Passos Importantes</h2>
+            <ol>
+                <li>Certifique-se de que você está em segurança.</li>
+                <li>Avalie a situação e chame por ajuda.</li>
+                <li>Forneça os cuidados iniciais.</li>
+            </ol>
+        </section>
+
+        <section id="common">
+            <h2>Situações Comuns</h2>
+            <button onclick="showInstructions('burns')">Queimaduras</button>
+            <button onclick="showInstructions('choking')">Engasgo</button>
+            <button onclick="showInstructions('cuts')">Cortes</button>
+            <div id="instruction-text"></div>
+        </section>
+
+        <section id="contact">
+            <h2>Contato de Emergência</h2>
+            <p>Em caso de emergência, ligue para 192 (Samu) ou 193 (Bombeiros).</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Guia de Primeiros Socorros. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
